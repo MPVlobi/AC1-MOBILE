@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Fotos do local -->
+    <ImageView
+        android:id="@+id/imgDetail1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imgDetail2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop" />
+
+    <!-- Descrição -->
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Descrição do local"
+        android:textSize="16sp" />
+
+    <!-- Botões para ações -->
+    <Button
+        android:id="@+id/btnViewMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver no Mapa" />
+
+    <Button
+        android:id="@+id/btnOpenWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir Website" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ligar" />
+
+</LinearLayout>

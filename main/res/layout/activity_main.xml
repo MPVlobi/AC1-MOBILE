@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- HMS -->
+    <ImageView
+        android:id="@+id/imgZoo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/hms1"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/txtZooName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Dr Miguel Soeiro"
+        android:textSize="18sp"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/btnZooDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saiba Mais" />
+
+    <!-- Farmacia -->
+    <ImageView
+        android:id="@+id/imgIguatemi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/farmacia"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/txtIguatemiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farmacia Unimed"
+        android:textSize="18sp"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/btnIguatemiDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saiba Mais" />
+
+    <!-- Unimed Shopping -->
+    <ImageView
+        android:id="@+id/imgParque"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/unimedshop"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/txtParqueName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unimed Shopping"
+        android:textSize="18sp"
+        android:padding="8dp" />
+    <Button
+        android:id="@+id/btnParqueDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saiba Mais" />
+
+</LinearLayout>
